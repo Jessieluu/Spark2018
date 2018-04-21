@@ -1,18 +1,38 @@
 # Big Data Mining and Application 2018
 Upload class implementation and homework
 
-### homework
+## homework
 *`2018/03/30 HW#1: Hadoop/Spark distributed mode setup & simple calculation in MapReduce `
-*`2018/04/13 HW#2: Statistics of various data types in MapReduce (co-occurrence) `
+#### Data:
+[Individual household electric power consumption dataset] from UCI Machine Learning Repository
+About 2 million instances, 20MB (compressed) in size
+Available at: https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+consumption 
 
-### Quiz
+#### 3 subtasks:
+(1) Output the minimum, maximum, and count of the columns: ‘global active power’, ‘global reactive power’, ‘voltage’, and ‘global intensity’ 
+(2) Output the mean and standard deviation of these columns
+(3) Perform min-max normalization on the columns to generate normalized output
+
+*`2018/04/13 HW#2: Statistics of various data types in MapReduce (co-occurrence) `
+#### Data:
+[News Popularity in Multiple Social Media Platforms dataset] from UCI Machine Learning Repository
+About 100,000 news items on four different topics: economy, microsoft, Obama, and Palestine, during November 2015 and July 2016
+Available at: https://archive.ics.uci.edu/ml/datasets/News+Popularity+in+Multiple+Social+Media+Platforms 
+
+#### 4 subtasks:
+(1) In news data, count the words in two fields: ‘Title’ and ‘Headline’ respectively, and list the most frequent words according to the term frequency in descending order, in total, per day, and per topic, respectively
+(2) In social feedback data, calculate the average popularity of each news by hour, and by day, respectively (for each platform)
+(3) In news data, calculate the sum and average sentiment score of each topic, respectively
+(4) From subtask (1), for the top-100 frequent words per topic in titles and headlines, calculate their co-occurrence matrices (100x100), respectively. Each entry in the matrix will contain the co-occurrence frequency in all news titles and headlines, respectively 
+
+## Quiz (2018/04/21)
 
 #### Data:
-
 [KDD Cup 1999 Data dataset] from UCI Machine Learning Repository
 Available at: http://archive.ics.uci.edu/ml/datasets/kdd+cup+1999+data
 Size: 18MB compressed, 743 MB uncompressed
 
+#### Tasks:
 (1) For continuous attributes ‘duration’, ‘src_bytes’, ‘dst_bytes’,
 ‘num_failed_logins’, please calculate their mean, median, mode, standard
 deviation, respectively
