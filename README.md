@@ -2,10 +2,11 @@
 Upload class implementation and homework
 
 ## homework
-*`2018/03/30 HW#1: Hadoop/Spark distributed mode setup & simple calculation in MapReduce `
+
+### 2018/03/30 HW#1: Hadoop/Spark distributed mode setup & simple calculation in MapReduce
 #### Data:
-[Individual household electric power consumption dataset] from UCI Machine Learning Repository
-About 2 million instances, 20MB (compressed) in size
+[Individual household electric power consumption dataset] from UCI Machine Learning Repository.
+About 2 million instances, 20MB (compressed) in size.
 Available at: https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+consumption 
 
 #### 3 subtasks:
@@ -13,10 +14,10 @@ Available at: https://archive.ics.uci.edu/ml/datasets/individual+household+elect
 (2) Output the mean and standard deviation of these columns
 (3) Perform min-max normalization on the columns to generate normalized output
 
-*`2018/04/13 HW#2: Statistics of various data types in MapReduce (co-occurrence) `
+### 2018/04/13 HW#2: Statistics of various data types in MapReduce (co-occurrence)
 #### Data:
-[News Popularity in Multiple Social Media Platforms dataset] from UCI Machine Learning Repository
-About 100,000 news items on four different topics: economy, microsoft, Obama, and Palestine, during November 2015 and July 2016
+[News Popularity in Multiple Social Media Platforms dataset] from UCI Machine Learning Repository.
+About 100,000 news items on four different topics: economy, microsoft, Obama, and Palestine, during November 2015 and July 2016.
 Available at: https://archive.ics.uci.edu/ml/datasets/News+Popularity+in+Multiple+Social+Media+Platforms 
 
 #### 4 subtasks:
@@ -24,6 +25,20 @@ Available at: https://archive.ics.uci.edu/ml/datasets/News+Popularity+in+Multipl
 (2) In social feedback data, calculate the average popularity of each news by hour, and by day, respectively (for each platform)
 (3) In news data, calculate the sum and average sentiment score of each topic, respectively
 (4) From subtask (1), for the top-100 frequent words per topic in titles and headlines, calculate their co-occurrence matrices (100x100), respectively. Each entry in the matrix will contain the co-occurrence frequency in all news titles and headlines, respectively 
+
+### 2018/05/03 HW#3: Similarity estimation using MapReduce (for computing minhash signatures, LSH, and KNN search) 
+#### Data:
+[Reuters-21578 Text Categorization Collection Data Set] from UCI Machine Learning Repository.
+It contains 21,578 news articles from Reuters in 1987.
+Available at: https://archive.ics.uci.edu/ml/datasets/reuters-21578+text+categorization+collection 
+
+#### 4 Subtasks:
+(1) Given the Reuters-21578 dataset, please calculate all k-shingles and output the set representation of the text dataset as a matrix.
+(2) Given the set representation, compute the minhash signatures of all documents using MapReduce.
+(3) Implement the LSH algorithm by MapReduce and output the resulting candidate pairs of similar documents. 
+[Optional] (4) Implement K-nearest neighbor (KNN) search using LSH and compare its performance with linear search.
+
+
 
 ## Quiz (2018/04/21)
 
