@@ -36,8 +36,19 @@ Available at: https://archive.ics.uci.edu/ml/datasets/reuters-21578+text+categor
 (1) Given the Reuters-21578 dataset, please calculate all k-shingles and output the set representation of the text dataset as a matrix.
 (2) Given the set representation, compute the minhash signatures of all documents using MapReduce.
 (3) Implement the LSH algorithm by MapReduce and output the resulting candidate pairs of similar documents. 
-[Optional] (4) Implement K-nearest neighbor (KNN) search using LSH and compare its performance with linear search.
+(4) Implement K-nearest neighbor (KNN) search using LSH and compare its performance with linear search.
 
+### 2018/05/03 HW#4: Matrix multiplication using MapReduce (for dimension reduction using SVD, or CUR) 
+#### Data:
+[Reuters-21578 Text Categorization Collection Data Set] from UCI Machine Learning Repository.
+It contains 21,578 news articles from Reuters in 1987.
+Available at: https://archive.ics.uci.edu/ml/datasets/reuters-21578+text+categorization+collection 
+
+#### 4 Subtasks:
+(1) Given the Reuters-21578 dataset, please calculate the term frequencies, and output the representation of the document contents as a term-document count matrix.
+(2) Implement matrix multiplication by MapReduce. Your program  should be able to output the result in appropriate dimensions. 
+(3) Given the term-document matrix in (1), compute the SVD decomposition of the matrix using MapReduce. Output the resulting eigenvalues and eigenvectors.
+(4) Given the term-document matrix in (1), compute the CUR decomposition of the matrix using MapReduce. Output the resulting eigenvalues and eigenvectors.
 
 
 ## Quiz (2018/04/21)
