@@ -50,6 +50,18 @@ Available at: https://archive.ics.uci.edu/ml/datasets/reuters-21578+text+categor
 (3) Given the term-document matrix in (1), compute the SVD decomposition of the matrix using MapReduce. Output the resulting eigenvalues and eigenvectors.
 (4) Given the term-document matrix in (1), compute the CUR decomposition of the matrix using MapReduce. Output the resulting eigenvalues and eigenvectors.
 
+### 2018/05/17 HW#5: Analyzing web graphs in MapReduce (Connectivity, PageRank, ...) 
+#### Data:
+[Google web graph Data Set] from Stanford Large Network (SNAP) Dataset Collection
+The data was released in 2002 by Google as a part of Google Programming Contest
+Available at: http://snap.stanford.edu/data/web-Google.html 
+
+#### 4 Subtasks:
+(1) Given the Google web graph dataset, please output the list of web pages with the number of outlinks, sorted in descending order of the out-degrees.
+(2) Please output the inlink distribution of the top linked web pages, sorted in descending order of the in-degrees.
+(3) Design an algorithm that maintains the connectivity of two nodes in an efficient way. Given a node v, please output the list of nodes that v points to, and the list of nodes that points to v. 
+(4) Compute the PageRank of the graph using MapReduce. 
+
 
 ## Quiz (2018/04/21)
 
