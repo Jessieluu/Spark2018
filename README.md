@@ -81,3 +81,17 @@ frequency count, sorted in descending order of the count
 
 (3) Output the list of the most frequently used ‘service’ for each
 ‘intrusion_type’, sorted in descending order of the occurrence frequency
+
+## Bonus (2018/05/02)
+
+#### Data:
+[Crime Datasets, Chicago] from US-City Open Data Census
+For the city of Chicago, since 2001
+Available at: https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2  
+
+
+#### Tasks:
+(1) For the attributes  ‘Primary type’ and ‘Location description’, output the list of each value and the corresponding frequency count, sorted in descending order of the count, respectively.
+(2) Output the most frequently occurred ‘Primary type‘ for each possible value of ‘Location description’, sorted in descending order of the frequency count.
+(3) Output the most frequently occurred street name in the attribute ‘Block‘ for each ‘Primary type’, sorted in descending order of the frequency count. (You should remove the numbers in the ‘Block’ address of a street/avenue/boulevard) 
+(4) From the attribute ‘Date’, extract the time in hours and output the most frequently occurred hour for each ‘Primary type’ and ‘Location description’, sorted in descending order of the frequency count, respectively.
