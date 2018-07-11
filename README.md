@@ -1,6 +1,14 @@
 # Big Data Mining and Application 2018
 Upload class implementation and homework
 
+## Environment
+* Spark
+* Jupyter
+* Linux (Ubuntu on vmware)
+
+## Program Language
+* Python3
+
 ## homework
 
 ### 2018/03/30 HW#1: Hadoop/Spark distributed mode setup & simple calculation in MapReduce
